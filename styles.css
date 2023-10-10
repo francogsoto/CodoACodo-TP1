@@ -18,25 +18,50 @@ nav ul{
 nav ul li a{
     color: white;
     padding: 10px;
-    font-size: 15px;
     cursor: pointer;
     text-decoration: none;
 }
 
 
 .nav{
-    background-color: rgb(51, 58, 64);
-    
+    background-color: rgb(51, 58, 64);  
+}
+
+.nombreItem{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.nombreItem:hover{
+    color: rgb(25, 135, 84);
+}
+
+.divSeparador{
+    width: 800px;
+    height: 45px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: rgb(33, 37, 41);
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
     
 }
 
-
-
-.formulario{
-    display: block;
-    text-align: center;
+.divForm{
+    display: flex;
+    justify-content: center;
     
-    
+}
+
+.inputForm{
+    margin-top: 3px;
 }
 
 .textArea{
@@ -54,8 +79,5 @@ nav ul li a{
 .footer{
     background-color: rgb(30, 79, 109);
     color: white;
-    display: flex;
-    justify-content: center;
-    
     
 }

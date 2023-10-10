@@ -17,12 +17,12 @@
                 </a>
             </div>
             <ul class="ulList">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="">Conferencia</a></li>
-                <li><a href="#oradores">Oradores</a></li>
-                <li><a href="#lugar">Lugar y Fecha</a></li>
-                <li><a href="#seOrador">Sé Orador</a></li>
-                <li><a href="#comprarTickets">Comprar Tickets</a></li>
+                <li><a href="index.html" class="nombreItem">Inicio</a></li>
+                <li><a href="" class="nombreItem">Conferencia</a></li>
+                <li><a href="#oradores" class="nombreItem">Oradores</a></li>
+                <li><a href="#lugar" class="nombreItem">Lugar y Fecha</a></li>
+                <li><a href="#seOrador" class="nombreItem">Sé Orador</a></li>
+                <li><a href="#comprarTickets" class="nombreItem">Comprar Tickets</a></li>
             </ul>
         </nav>
     </header>
@@ -43,15 +43,15 @@
             </div>
         </div>
 
-        <section>
-            <div class="container col-12 border mx-auto mt-3 mb-2 rounded bg-dark ">
-                <div class="text-center mt-3">
-                    <p class="text-success fw-bold" id="oradores">CONOCE A LOS ORADORES</p>
-                </div>
+        <div class="divSeparador mx-auto mt-2">
+            <div class="text-center mt-2 mb-2">
+                <p class="text-success fw-bold" id="oradores">CONOCE A LOS ORADORES</p>
             </div>
-                
+        </div>
 
-            <div class="container mt-4">
+        <section >
+            
+            <div class="container mt-4 mb-3">
                 <div class="row">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
@@ -83,8 +83,6 @@
                         <div class="card-body">
                             <button class="btn btn-secondary">Negocios</button>
                             <button class="btn btn-danger">CEO</button>
-
-
                         <h5 class="card-title mt-2">Elon Musk</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur nihil impedit maxime assumenda inventore corporis sapiente quasi amet accusantium adipisci? Nostrum, quidem provident. Hic veritatis ratione, quasi numquam alias quaerat!</p>
                         
@@ -95,42 +93,41 @@
             </div>
     </section>
     
-        <section>
-
-            <div class="container col-12 border mx-auto mt-3 mb-2 rounded bg-dark ">
-                <div class="text-center mt-3">
-                    <p class="text-success fw-bold" id="seOrador">CONVIERTETE EN ORADOR</p>
-                </div>
-            </div>
-
-            <div class="formulario">
-            <form action="">
-                <input type="" title="Nombre" placeholder="Nombre" required>
-                <input type="" title="Apellido" placeholder="Apellido" required>
-                <input type="email" title="Email" placeholder="E-mail" required>
-                <input type="tel" title="Telefono" placeholder="Telefono">
-                <textarea name="" rows="5" cols="30" minlength="10" maxlength="200" placeholder="Sobre que quieres hablar?" class="textArea"></textarea>
-                <button type="submit" class="buttonForm">Enviar</button>
-            </form>
+    <div class="divSeparador mx-auto mb-1">
+        <div class="text-center mt-2 mb-2">
+            <p class="text-success fw-bold" id="seOrador">CONVIERTETE EN ORADOR</p>
         </div>
+    </div>
+    
+        <section class="formulario text-center mx-auto">
+
+            <div class="divForm">
+                
+                    <form action="">
+                        <input class="inputForm" type="" title="Nombre" placeholder="Nombre" required>
+                        <input class="inputForm" type="" title="Apellido" placeholder="Apellido" required>
+                        <input class="inputForm" type="email" title="Email" placeholder="E-mail" required>
+                        <input class="inputForm" type="tel" title="Telefono" placeholder="Telefono">
+                        <textarea class="inputForm" name="" rows="5" cols="30" minlength="10" maxlength="200" placeholder="Sobre que quieres hablar?" class="textArea"></textarea>
+                        <button type="submit" class="buttonForm">Enviar</button>
+                    </form>
+                
+            </div>
         </section>
-        <section>
+
             <section>
-                <div class="container col-12 border mx-auto mt-3 mb-2 rounded bg-dark ">
-                    <div class="text-center mt-3">
+                <div class="divSeparador mx-auto mt-1">
+                    <div class="text-center mt-2">
                     <p class="text-success fw-bold" id="lugar">LUGAR</p>
                     </div>
                 </div>
-                    <div class="text-center">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210177.06960026242!2d-58.5530487819088!3d-34.6037389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1696620826867!5m2!1ses!2sar" width="400" height="300" loading="lazy"><iframe>
-                    </div>
-
+                <div class="text-center mt-1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210177.06960026242!2d-58.5530487819088!3d-34.6037389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1696620826867!5m2!1ses!2sar" width="400" height="200" loading="lazy"><iframe>
+                </div> 
             </section>
-                
-        </section>
         </main>
 
-    <footer class="footer">
+    <footer class="footer border rounded bg-dark">
         
         <ul class="ulList">
             <li><a href="">Preguntas Frecuentes</a></li>
